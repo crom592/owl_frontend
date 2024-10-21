@@ -6,7 +6,8 @@
   "homepage": "https://owl-frontend-two.vercel.app",
   "scripts": {
     "start": "vite",
-    "build": "vite build",
+    "dev": "vite",
+    "build": "tsc -b && vite build",
     "lint": "eslint . --ext js,jsx,ts,tsx",
     "preview": "vite preview",
     "format": "prettier --write --cache .",
