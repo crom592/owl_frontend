@@ -1,0 +1,103 @@
+/* WorkCalendar.css */
+
+.fc-day-sat .fc-col-header-cell-cushion {
+    color: blue;
+  }
+.fc-day-sun .fc-col-header-cell-cushion {
+    color: red;
+  }
+.fc-day-sun .fc-daygrid-day-number  {
+    color: red;
+  }
+.fc-day-sat .fc-daygrid-day-number {
+    color: blue;
+  }
+.holiday {
+    color: red;
+    display: block;
+    text-align: right; 
+  }
+
+
+/* Row */
+.fc td {
+    /* padding: 6px; */
+}
+.fc .fc-daygrid-day-frame {
+    height: auto;
+    min-height: 180px;
+
+    width: auto;
+}
+.fc-event {
+    padding: 0;
+    margin: 6px auto;
+}
+.fc-daygrid-dot-event {
+    justify-content: center;
+}
+.fc-daygrid-dot-event:hover {
+    background-color: transparent;
+}
+.fc-col-header, .fc-daygrid-day-number {
+    color: #969696;
+}
+.fc-direction-ltr .fc-daygrid-more-link {
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 3px;
+    font-size: 12.29px;
+    font-weight: 600;
+    line-height: 14.75px;
+}
+.fc-daygrid-day-events {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 3px 5px;
+}
+.fc .fc-daygrid-day-top {
+    flex-direction: row;
+}
+.fc .fc-col-header-cell-cushion {
+    font-size: 14.34px;
+    font-weight: 700;
+    line-height: 20.08px;
+    margin: 7px;
+}
+.fc th {
+    text-align: left;
+}
+.fc .fc-daygrid-day-number {
+    font-family: Inter;
+    font-size: 18.26px;
+    font-weight: 600;
+    line-height: 22.1px;
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+/* Toolbar */
+.fc .fc-toolbar-title  {
+    font-size: 20px;
+    font-weight: 700;
+}
+.fc-toolbar-chunk {
+    align-items: center;
+}
+.fc .fc-toolbar.fc-header-toolbar {
+    margin: 1.5em;
+}
+.fc-toolbar-chunk {
+    display: flex;
+}
+.fc .fc-button-primary {
+    background-color: transparent;
+    border: none;
+    color: #000000;
+}
+
+

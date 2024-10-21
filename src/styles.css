@@ -1,0 +1,68 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* font style */
+.heading1 {
+    font-size: 32px;
+    line-height: 35.2px;
+    font-weight: 700;
+  }
+  
+  .heading2 {
+    font-size: 24px;
+    line-height: 26.4px;
+    font-weight: 700;
+  }
+  
+  .heading3 {
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 600;
+  }
+  .large-text-bold {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+  }
+  
+  .large-text-regular {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+  }
+  
+  .medium-text-bold {
+    font-size: 18px;
+    line-height: 25.2px;
+    font-weight: 700;
+  }
+  
+  .medium-text-regular {
+    font-size: 18px;
+    line-height: 25.2px;
+    font-weight: 400;
+  }
+  
+  .normal-text-bold {
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 700;
+  }
+  
+  .normal-text-regular {
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 400;
+  }
+  
+  .small-text-bold {
+    font-size: 14px;
+    line-height: 19.6px;
+    font-weight: 700;
+  }
+  
+  .small-text-regular {
+    font-size: 14px;
+    line-height: 19.6px;
+    font-weight: 400;
+  }
+    
